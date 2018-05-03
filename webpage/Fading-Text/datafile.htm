@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<TITLE>Advanced Fading Text - Full Parameter Reference</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../images/jpprod.css">
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../images/jpprodplus.css">
+</head>
+<body>
+<center>
+<div class="out">
+<table  class="hdc">
+<tr><td rowspan="2"><img src="../images/jpowered.gif" width="270" height="60" align="left" alt="Advanced Fading Text"></td><td align='right'><H1>Advanced Fading Text Parameter Reference</H1></td></tr>
+<tr><td class="mc" valign="top"><img src="../images/curve.gif" width="22" height="18" vspace="0" hspace="0" align="left" alt="Advanced Fading Text">[<a href="http://www.jpowered.com/index.htm"> Home </a>] [<a href="http://www.jpowered.com/products.htm"> Products </a>] [<a href="http://www.jpowered.com/downloads.htm"> Downloads </a>] [<a href="http://www.jpowered.com/web-page-effects/order.htm"> Purchase </a>]<br>[<a href="http://www.jpowered.com/support.htm"> Support </a>] [<a href="http://www.jpowered.com/aboutus.htm"> About Us </a>]</td></tr>
+</table>
+<div>
+<div class="innm"><ul><li> <a href="http://www.jpowered.com/web-page-effects/index.htm">Home</a> </li><li> <a href="http://www.jpowered.com/web-page-effects/order.htm">Pricing / License Options</a> </li><li> <a href="./examples/index.htm">Demos</a> </li><li><a href="http://www.jpowered.com/custom/index.htm">Custom Solutions</a></li></ul></div>
+<h2>Data File Fading Content</h2>
+
+<div class="contentp">
+The Advanced Fading Text can set read all the text to be displayed from either a Plain Text File or a Server Side Process (eg. PHP, JSP, ASP, Perl etc). The parameter which specifies the location of the data is "dataURL", eg:-<br><br>
+&lt;param name="dataURL" value="textdata.txt"&gt;<br>
+(<b>Please Note:</b> File names are case sensitive ie. "textdata.txt" is not the same as "TextData.txt")<br><br>
+To create your data file, simply open up your favorite text editor (eg. Notepad) and add the text you wish to be displayed. Now save the file as 'textdata.txt' in the same directory as your web page.<br>
+(If you choose to use a different filename or location remember to change the 'dataURL' parameter to reflect this.)<br><br>
+In addition to plain text, the Advanced Fading Text allows you to add to special functions to the text. These are achieved by adding Special Instructions (Tags) within the text file. The possible tags and there function are listed in the table below:-<br>
+</div>
+
+<div class="contp">
+<table class="pmtable">
+<tr class="pmheading"><td>Name</td><td>Description</td><td>Example</td></tr>
+
+<tr class="pmrow">
+<td><b>&lt;MESSAGE&gt;</b></td>
+<td>Each message should be enclosed between a beginning messages tag &lt;MESSAGE&gt; and an ending &lt;/MESSAGE&gt; tag.</td>
+<td>
+&lt;MESSAGE&gt;<br>
+This is the first message<br>
+&lt;/MESSAGE&gt;
+</td>
+</tr>
+
+<tr class="pmrow">
+<td><b>Change the Text Color</b></td>
+<td>Set a new color for a portion of Text</td>
+<td>
+&lt;COLOR 255,0,0&gt;<br>
+For more Great Products<br>
+&lt;/COLOR&gt;
+</td>
+</tr>
+
+<tr class="pmrow">
+<td><b>Change the Font</b></td>
+<td>Set a new font for a portion of Text</td>
+<td>
+&lt;FONT Courier,B,14&gt;<br>
+For more Great Products<br>
+&lt;/FONT&gt;
+</td>
+</tr>
+
+<tr class="pmrow">
+<td><b>Change the Pause time for a Message</b></td>
+<td>Specify a different pause time<br> for the current message</td>
+<td>&lt;PAUSE 5&gt;</td>
+</tr>
+
+<tr class="pmrow">
+<td><b>Alignment</b></td>
+<td>Change the alignment</td>
+<td>
+&lt;ALIGN LEFT&gt;<br>
+Valid values are "Left", "Right" or "Center".
+</td>
+</tr>
+
+<tr class="pmrow">
+<td><b>URL Link</b></td>
+<td>Specify a link for the current message</td>
+<td>
+&lt;URL http://www.jpowered.com/,_self&gt;<br>
+</td>
+</tr>
+
+</table>
+</div>
+
+
+<div class="contentp"><a href="GettingStarted.htm">&laquo; back to Getting Started</a></div>
+<div class="innm"><ul><li> <a href="http://www.jpowered.com/web-page-effects/index.htm">Home</a> </li><li> <a href="http://www.jpowered.com/web-page-effects/order.htm">Pricing / License Options</a> </li><li> <a href="./examples/index.htm">Demos</a> </li><li><a href="http://www.jpowered.com/custom/index.htm">Custom Solutions</a></li></ul></div>
+</div>
+<div class="mc">[<a href="http://www.jpowered.com/index.htm"> Home </a>] [<a href="http://www.jpowered.com/products.htm"> Products </a>] [<a href="http://www.jpowered.com/downloads.htm"> Downloads </a>] [<a href="http://www.jpowered.com/web-page-effects/order.htm"> Purchase </a>] [<a href="http://www.jpowered.com/support.htm"> Support </a>] [<a href="http://www.jpowered.com/aboutus.htm"> About Us </a>]</div>
+<div class="cprt"><img src="../images/copyright.gif" width="450" height="25" alt="Advanced Fading Text"></div>
+</div>
+</center>
+
+</body>
+</html>

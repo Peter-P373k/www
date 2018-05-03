@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<TITLE>JavaScript CSS Image Viewer</TITLE>
+<META NAME="DESCRIPTION" CONTENT="The Image Viewer provides a very efficient way to display multiple images within a small area of a web page. The script is fully cross browser and platform ensuring all your visitors will enjoy the benefits. In addition the script code is compact and hence very fast to load.">
+<META NAME="KEYWORDS" CONTENT="javascript,image,viewer,image viewer,gallery,image gallery">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../images/jpprod.css">
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../images/jpprodplus.css">
+</head>
+<body>
+<center>
+<div class="out">
+<table  class="hdc" width="100%" border="0" cellspacing="0" cellpadding="0"><tr>
+<td rowspan="2"><img src="../images/jpowered.gif" width="270" height="60" align="left" alt="JavaScript CSS Image Viewer"></td>
+<td align='right'><H1>JavaScript CSS Image Viewer - Documentation</H1></td>
+</tr>
+<tr>
+<td class="mc" valign="top"><img src="../images/curve.gif" width="22" height="18" vspace="0" hspace="0" align="left" alt="Image Gallery">[<a href="http://www.jpowered.com/index.htm"> Home </a>] [<a href="http://www.jpowered.com/products.htm"> Products </a>] [<a href="http://www.jpowered.com/downloads.htm"> Downloads </a>] [<a href="http://www.jpowered.com/purchase.htm"> Purchase </a>] [<a href="http://www.jpowered.com/support.htm"> Support </a>]</td>
+</tr></table>
+
+<div>
+<div class="innm"><ul><li> <a href="http://www.jpowered.com/web-page-effects/index.htm">Home</a> </li><li> <a href="GettingStarted.htm">Getting Started</a> </li><li> <a href="http://www.jpowered.com/web-page-effects/order.htm">Buy Now</a> </li><li> <a href="http://www.jpowered.com/javascript/image-viewer/configurator.htm">Configurator</a> </li><li> <a href="demo.htm">Demo</a> </li><li> <a href="documentation.htm">Documentation</a> </li></ul></div>
+<div class="pgt"><h1>Documentation and Full Parameter Reference</h1></div>
+
+
+<div class="contentp">
+<div class="heading">Overview</div>
+This document is intended for Advanced Users who have a good grasp of HTML. The Image Viewer can be fully configured and added to a page by using the Configurator Tool without any understanding of the following information.
+We recommend that the vast majority of users use this tool to add this function to their pages.
+<p><a href="http://www.jpowered.com/javascript/image-viewer/configurator.htm">Use the Online Configurator here &raquo;</a></p>
+</div>
+
+<div class="contentp">
+<div class="heading">Adding the Image Viewer to a Web Page by hand</div>
+There are two blocks of HTML which need to be added to a page. The first is just a script tag which should be placed where you wish the viewer to appear.
+The second block of code should be placed at the very end of a page, ideally just before the &lt;/body&gt; tag. This second block of code contains the main script tag and
+, the configuration parameters.
+Below are the two blocks of code. Add these to a page and adjust the parameter values to meet your requirements. (see table below for the function of each parameter).
+
+
+<p>Add the following code where you would like the Image Viewer to appear in your page<br>
+  <textarea name="textfield" cols="80" rows="2" class="doctextarea">&lt;script src=&quot;jpimageviewerhere.js.js&quot; language=&quot;JavaScript&quot;&gt;&lt;/script&gt;</textarea>
+</p>
+<p>Add all of the following HTML towards the end of your page, ideally just before
+  the &lt;/body&gt; tag <br>
+  <TEXTAREA cols="80" rows="10" class="doctextarea">
+
+<!-- image viewer parameters -->
+<div id="JPIMAGEVIEWER_parameters" style="visibility:hidden; height: 1px; width: 1px; overflow:hidden;">
+
+    <div id="JPIMAGEVIEWER_width">250</div>
+    <div id="JPIMAGEVIEWER_height">250</div>
+    <div id="JPIMAGEVIEWER_thumbwidth">50</div>
+    <div id="JPIMAGEVIEWER_thumbheight">50</div>
+    <div id="JPIMAGEVIEWER_bgcolor">#EEEEEE</div>
+    <div id="JPIMAGEVIEWER_borderwidth">1</div>
+    <div id="JPIMAGEVIEWER_bordergap">4</div>
+    <div id="JPIMAGEVIEWER_bordercolor">#0000FF</div>
+
+    <!-- repeat these four parameters for each image you wish to add to the viewer -->
+    <div id="JPIMAGEVIEWER_image1">./images/img1.gif</div>
+    <div id="JPIMAGEVIEWER_link1">http://www.jpowered.com/index.htm</div>
+    <div id="JPIMAGEVIEWER_target1">_self</div>
+    <div id="JPIMAGEVIEWER_text1">text for image 1</div>
+
+</div>
+<script src="jpimageviewer.js" language="JavaScript"></script>
+
+</TEXTAREA>
+</p>
+
+<p>Finally place the two files 'jpimageviewer.js' and 'jpimageviewerhere.js' in the same directory as the web page</p>
+<p>These two files are contained in the download package <a href="http://www.jpowered.com/javascript/image-viewer/download.htm">here &raquo;</a></p>
+<p>Alternatively right click on the following links and select "Save Target As..." to download these files independently:-</p>
+<p><a href="jpimageviewer.js">jpimageviewer.js</a></p>
+<p><a href="jpimageviewerhere.js">jpimageviewerhere.js</a></p>
+</div>
+
+<div class="contentp">
+<div class="heading">Full Parameter Reference</div>
+
+<table class="paramtable">
+<tr>
+<td width="150">Parameter Name</td>
+<td>Description</td>
+<td width="150">Range of Values</td>
+</tr>
+<tr>
+<td>JPIMAGEVIEWER_width</td>
+<td>The width in pixels of the full size image display area</td>
+<td>Any positive valid integer value eg. 200</td>
+</tr>
+<tr>
+<td>JPIMAGEVIEWER_height</td>
+<td>The height in pixels of the full size image display area</td>
+<td>Any positive valid integer value eg. 200</td>
+</tr>
+<tr>
+<td>JPIMAGEVIEWER_thumbwidth</td>
+<td>The width in pixels of the thumbnail images</td>
+<td>Any positive valid integer value eg. 50</td>
+</tr>
+<tr>
+<td>JPIMAGEVIEWER_thumbheight</td>
+<td>The height in pixels of the thumbnail images</td>
+<td>Any positive valid integer value eg. 50</td>
+</tr>
+<tr>
+<td>JPIMAGEVIEWER_bgcolor</td>
+<td>The background color</td>
+<td>Any valid HTML color specification eg. #FFFFFF</td>
+</tr>
+<tr>
+<td>JPIMAGEVIEWER_bordercolor</td>
+<td>The border color</td>
+<td>Any valid HTML color specification eg. #8C8C8C</td>
+</tr>
+<tr>
+<td>JPIMAGEVIEWER_borderwidth</td>
+<td>The width of the border in pixels</td>
+<td>Any positive valid integer value eg. 1</td>
+</tr>
+<tr>
+<td>JPIMAGEVIEWER_bordergap</td>
+<td>Gap between the border and the image content in pixels</td>
+<td>Any positive valid integer value eg. 5</td>
+</tr>
+<tr>
+<td>JPIMAGEVIEWER_lkey</td>
+<td>If the licensed version is being used then the license key should be supplied with this parameter</td>
+<td>A valid license key</td>
+</tr>
+</table>
+
+The following four parameters should be repeated for each image you wish to add to the viewer. The parameter names should increase by 1 for each additional image. The names below are for the first image, the second image would have names <br>
+<ul><li>JPIMAGEVIEWER_image2</li><li>JPIMAGEVIEWER_link2</li><li>JPIMAGEVIEWER_target2</li><li>JPIMAGEVIEWER_text2</li></ul>
+and the third would be<br>
+<ul><li>JPIMAGEVIEWER_image3</li><li>JPIMAGEVIEWER_link3</li><li>JPIMAGEVIEWER_target3</li><li>JPIMAGEVIEWER_text3</li></ul>
+and so on for each image
+<table class="paramtable">
+<tr>
+<td width="150">Parameter Name</td>
+<td>Description</td>
+<td width="150">Range of Values</td>
+</tr>
+<tr>
+<td>JPIMAGEVIEWER_image1</td>
+<td>The URL of the image file</td>
+<td></td>
+</tr>
+<tr>
+<td>JPIMAGEVIEWER_link1</td>
+<td>A URL that this image should link to.</td>
+<td>Any valid URL</td>
+</tr>
+<tr>
+<td>JPIMAGEVIEWER_target1</td>
+<td>The target frame or window in which the link should open. To open in the current window set this to a value of _self</td>
+<td>_self, _blank, _top or any valid frame or window name</td>
+</tr>
+<tr>
+<td>JPIMAGEVIEWER_text1</td>
+<td>This is the text that will be set as the alternative text (the ALT attribute) for this image.</td>
+<td>Plain Text</td>
+</tr>
+</table>
+
+
+
+
+</div>
+
+<div class="contentp">
+<div class="heading">Support</div>
+<p>If at any stage you require assistance, help or advice then please feel free contact us via our support pages at:-</p>
+<p><a href="http://www.jpowered.com/support.htm">JPowered Support &raquo;</a></p>
+</div>
+
+<div class="innm"><ul><li> <a href="http://www.jpowered.com/web-page-effects/index.htm">Home</a> </li><li> <a href="GettingStarted.htm">Getting Started</a> </li><li> <a href="http://www.jpowered.com/web-page-effects/order.htm">Buy Now</a> </li><li> <a href="http://www.jpowered.com/javascript/image-viewer/configurator.htm">Configurator</a> </li><li> <a href="demo.htm">Demo</a> </li><li> <a href="documentation.htm">Documentation</a> </li></ul></div>
+</div>
+
+<div class="mc">[<a href="http://www.jpowered.com/index.htm"> Home </a>] [<a href="http://www.jpowered.com/products.htm"> Products </a>] [<a href="http://www.jpowered.com/downloads.htm"> Downloads </a>] [<a href="http://www.jpowered.com/purchase.htm"> Purchase </a>] [<a href="http://www.jpowered.com/support.htm">Support </a>]</div>
+<div class="cprt"><img src="../images/copyright.gif" width="450" height="25" alt="JavaScript CSS Image Gallery"></div>
+</div>
+</center>
+</body>
+</html>

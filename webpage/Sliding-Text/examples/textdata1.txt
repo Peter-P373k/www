@@ -1,0 +1,34 @@
+<INDENT 0><IMG ./images/jpowered.gif></INDENT>
+<CENTER>
+<FONT Arial,B,18><COLOR #BB4400>
+Advanced Sliding Text
+
+Welcome
+</COLOR></FONT>
+</CENTER>
+<PAGEBREAK>
+
+
+The Advanced Sliding Text Applet is very versatile and provides the ability for a wide range of implementations. These examples demonstrate the most common configurations.
+<PAGEBREAK>
+<CENTER><FONT Arial,B,18>
+Main Features
+</FONT></CENTER>
+ - Multi-Language Support
+ - Adjustable Scroll Speed
+ - Images can be inserted
+ - Hyperlink any portion of text/ Image 
+ - Scroll Pause upon mouseover 
+ - Word Wrap 
+ - Center Alignment for text 
+ - Pause between pages
+ - Change Colors and Fonts throughout. 
+ - Variable Indent 
+ - JavaScript Interaction
+<PAGEBREAK>
+
+For prices and licensing terms click the image:-
+<URL http://www.jpowered.com/sliding-text/order.htm>
+<INDENT 50><IMG ./images/buydownload.gif></INDENT>
+</URL>
+<PAGEBREAK>

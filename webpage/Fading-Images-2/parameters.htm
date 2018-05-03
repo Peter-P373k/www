@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<TITLE>Fading Images 2 - Full Parameter Reference</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../images/jpprod.css">
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../images/jpprodplus.css">
+</head>
+<body>
+<center>
+<div class="out">
+<table  class="hdc">
+<tr><td rowspan="2"><img src="../images/jpowered.gif" width="270" height="60" align="left" alt="Fading Images 2"></td><td align='right'><H1>Fading Images 2 Parameter Reference</H1></td></tr>
+<tr><td class="mc" valign="top"><img src="../images/curve.gif" width="22" height="18" vspace="0" hspace="0" align="left" alt="graph demo">[<a href="http://www.jpowered.com/index.htm"> Home </a>] [<a href="http://www.jpowered.com/products.htm"> Products </a>] [<a href="http://www.jpowered.com/downloads.htm"> Downloads </a>] [<a href="http://www.jpowered.com/web-page-effects/order.htm"> Purchase </a>]<br>[<a href="http://www.jpowered.com/support.htm"> Support </a>] [<a href="http://www.jpowered.com/aboutus.htm"> About Us </a>]</td></tr>
+</table>
+<div>
+<div class="innm"><ul><li> <a href="http://www.jpowered.com/web-page-effects/index.htm">Home</a> </li><li> <a href="http://www.jpowered.com/web-page-effects/order.htm">Pricing / License Options</a> </li><li> <a href="./examples/index.htm">Demos</a> </li><li><a href="http://www.jpowered.com/custom/index.htm">Custom Solutions</a></li></ul></div>
+<h2>Fading Images 2 Full Parameter Reference</h2>
+
+<div class="contentp">
+The values of the parameters dictate the content and behaviour of the Fading Images 2<br><br>
+Please Note : Parameter names are case sensitive. ( i.e. 'width' is not the same as 'Width' ).
+</div>
+
+<div class="contp">
+<table class="pmtable">
+<tr class="pmheading"><td>Name</td><td>Description</td><td>Example</td></tr>
+
+<tr class="pmrow">
+<td><b>startupcolor</b></td>
+<td>Specifies the background color while the first image is loading. Specify the red, green and blue intensities separated by commas and no spaces.<br><br><b>Range of Values :</b> Decimal R,G,B Color</td>
+<td>&lt;PARAM name="startupcolor" value="255,255,255"&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>startupimage</b></td>
+<td>If specified then this image will be loaded and displayed while either the first image or all the images in the sequence are loaded. (See also loadall)<br><br><b>Range of Values :</b> URL of an Image File</td>
+<td>&lt;PARAM name="startupimage" value="startup.gif"&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>textcolor</b></td>
+<td>Specifies the color of the loading message. Specify the red, green and blue intensities separated by commas and no spaces.<br><br><b>Range of Values :</b> Decimal R,G,B Color</td>
+<td>&lt;PARAM name="textcolor" value="0,0,0"&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>loadingmessage</b></td>
+<td>Message to be displayed whilst images are loading<br><br><b>Range of Values :</b> Text</td>
+<td>&lt;PARAM name="loadingmessage" value="Loading Images...."&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>loadall</b></td>
+<td>If yes is specified then all the images will be loaded before the first image fades out. If no is specified then each image will be loaded just before it fades in.<br><br><b>Range of Values :</b> "yes" or "no"</td>
+<td>&lt;PARAM name="loadall" value="no"&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>imageN</b></td>
+<td>The URL of each image file. Repeat this parameter for each image to be displayed<br><br><b>Range of Values :</b> URL of an Image file</td>
+<td>
+&lt;PARAM name="image1" value="image1.gif"&gt;<br>
+&lt;PARAM name="image2" value="image1.gif"&gt;<br>
+&lt;PARAM name="image3" value="image1.gif"&gt;<br>
+&lt;PARAM name="image4" value="image1.gif"&gt;
+</td>
+</tr>
+
+<tr class="pmrow">
+<td><b>linkN</b></td>
+<td>The link for each image<br><br><b>Range of Values :</b> Any valid URL</td>
+<td>
+&lt;PARAM name="link1" value="http://www.jpowered.com"&gt;<br>
+&lt;PARAM name="link2" value="http://www.yourdomain.com"&gt;<br>
+&lt;PARAM name="link3" value="http://www.adomain.com"&gt;<br>
+&lt;PARAM name="link4" value="http://www.here.com"&gt;
+</td>
+</tr>
+
+<tr class="pmrow">
+<td><b>timeN</b></td>
+<td>The time in milliseconds (1 second = 1000 milliseconds) to display an image before it fades out.<br><br><b>Range of Values :</b> Positive Integer</td>
+<td>
+&lt;PARAM name="time1" value="2000"&gt;<br>
+&lt;PARAM name="time2" value="1000"&gt;<br>
+&lt;PARAM name="time3" value="5000"&gt;<br>
+&lt;PARAM name="time4" value="3000"&gt;
+</td>
+</tr>
+
+<tr class="pmrow">
+<td><b>fps</b></td>
+<td>Frames per second while an image is fading out. The higher this is the smoother the fading is. But more memory will be used and more time will be needed to process each image before it fades in.<br><br><b>Range of Values :</b> 1 to 100</td>
+<td>&lt;PARAM name="fps" value="30"&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>timefading</b></td>
+<td>The length of time in milliseconds to fade from one image to another image. The longer this is the more memory will be used and more time will be needed to process each image before it fades in.<br><br><b>Range of Values :</b> 100 to 10,000</td>
+<td>&lt;PARAM name="timefading" value="1000"&gt; </td>
+</tr>
+
+</table>
+</div>
+
+
+<div class="contentp"><a href="GettingStarted.htm">&laquo; back to Getting Started</a></div>
+<div class="contp">
+<b>Custom Solutions</b><br>
+If would like us to perform the set-up process, create custom built data scripts or help with any other part of your web application then we are pleased to offer you the following services:-<br>
+<a href="http://www.jpowered.com/web-software-development/product-configuration.htm">Set-Up, Installation and Configuration Service</a><br>
+<a href="http://www.jpowered.com/web-software-development/index.htm">Web Site Components Development Service</a><br>
+<a href="http://www.jpowered.com/web-application-development/index.htm">Web Application Development Service</a><br>
+<a href="http://www.jpowered.com/custom/index.htm">Custom Software Development</a><br>
+</div>
+<div class="innm"><ul><li> <a href="http://www.jpowered.com/web-page-effects/index.htm">Home</a> </li><li> <a href="http://www.jpowered.com/web-page-effects/order.htm">Pricing / License Options</a> </li><li> <a href="./examples/index.htm">Demos</a> </li><li><a href="http://www.jpowered.com/custom/index.htm">Custom Solutions</a></li></ul></div>
+</div>
+<div class="mc">[<a href="http://www.jpowered.com/index.htm"> Home </a>] [<a href="http://www.jpowered.com/products.htm"> Products </a>] [<a href="http://www.jpowered.com/downloads.htm"> Downloads </a>] [<a href="http://www.jpowered.com/web-page-effects/order.htm"> Purchase </a>] [<a href="http://www.jpowered.com/support.htm"> Support </a>] [<a href="http://www.jpowered.com/aboutus.htm"> About Us </a>]</div>
+<div class="cprt"><img src="../images/copyright.gif" width="450" height="25" alt="Fading Images 2"></div>
+</div>
+</center>
+
+</body>
+</html>

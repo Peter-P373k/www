@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<TITLE>Advanced Fading Text - Getting Started</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../images/jpprod.css">
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../images/jpprodplus.css">
+</head>
+<body>
+<center>
+<div class="out">
+<table  class="hdc" width="100%" border="0" cellspacing="0" cellpadding="0"><tr>
+<td rowspan="2"><img src="../images/jpowered.gif" width="270" height="60" align="left" alt="Advanced Fading Text"></td>
+<td align='right'><H1>Advanced Fading Text - Getting Started</H1></td>
+</tr>
+<tr>
+<td class="mc" valign="top"><img src="../images/curve.gif" width="22" height="18" vspace="0" hspace="0" align="left" alt="Advanced Fading Text">[<a href="http://www.jpowered.com/index.htm"> Home </a>] [<a href="http://www.jpowered.com/products.htm"> Products </a>] [<a href="http://www.jpowered.com/downloads.htm"> Downloads </a>] [<a href="http://www.jpowered.com/web-page-effects/order.htm"> Purchase </a>] [<a href="http://www.jpowered.com/support.htm"> Support </a>]</td>
+</tr></table>
+
+<div>
+<div class="innm"><ul><li> <a href="http://www.jpowered.com/web-page-effects/index.htm">Home</a> </li><li> <a href="http://www.jpowered.com/web-page-effects/order.htm">Pricing / License Options</a> </li><li> <a href="./examples/index.htm">Demos</a> </li><li><a href="http://www.jpowered.com/custom/index.htm">Custom Solutions</a></li></ul></div>
+<div class="pgt"><h1>Getting Started</h1></div>
+
+
+<div class="contentp">
+    <div class="headinglarge">Overview</div>
+The Advanced Fading Text software enables you to display all your adverts in just one area of your page. No longer will those adverts swamp your real content.
+</div>
+
+<div class="contentp">
+    <div class="headinglarge">Implementation and Set Up</div>
+    Adding Advanced Fading Text to a web page is achieved by the following steps:-<br><br>
+
+<table class="pmtable">
+<tr class="pmheading"><td>Add the following code to your web page:-</td></tr>
+<tr class="pmrow"><td>
+<textarea class="applettag" rows="15" cols="60">
+<script src="jpapplet.js" language="javascript" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+jpwriteapplet('<applet code="AdvFadeText.class" archive="AdvFadeText.jar" WIDTH="250" HEIGHT="100" mayscript>');
+</script>
+
+<!-- Start Up Properties -->
+<param name="startupmessage"   value="Loading date - Please Wait.">
+<param name="startBGcolor"     value="255,255,255">
+<param name="startTXTcolor"    value="0,0,0">
+
+<!-- Applet Properties -->
+<param name="BGcolor"     value="white">
+<param name="BorderWidth" value="0">
+<param name="BorderColor" value="white">
+<param name="Speed"       value="80">
+<param name="TextColor"   value="black">
+<param name="Font"        value="Arial,N,12">
+<param name="Pause"       value="2">
+<param name="align"       value="center">
+<param name="dataURL"     value="data.txt">
+<param name="charset"     value="8859_1">
+
+<a href="http://www.jpowered.com">Advanced Fading Text by JPowered.com</a>
+</applet>
+</textarea>
+(The "WIDTH" and "HEIGHT" parameters should be adjusted for the size required)
+</td></tr>
+</table>
+<br>
+<table class="pmtable">
+<tr class="pmheading"><td>Set Parameters</td></tr>
+<tr class="pmrow"><td>
+The parameters (PARAM tags) dictate the content, colors, fonts and operation of the Advanced Fading Text. The VALUE of the parameters (added in the previous step) should be adjusted to provide the desired result. <br><br>
+For the meaning and effect of each parameter see the <a href="parameters.htm">Parameter Reference here</a><br><br>
+</td></tr>
+</table>
+<br>
+<table class="pmtable">
+<tr class="pmheading"><td>Add the Messages to be Displayed</td></tr>
+<tr class="pmrow"><td>
+The Advanced Fading Text will load the messages from a data file specified by the "dataURL" parameter. Above this parameter is set to a value of "data.txt". The dataURL does not have to be a static text file but can be (if required) a server side script which generates the content dynamically<br>(eg. &lt;param name="dataURL" value="data.php"&gt; where data.php would be a PHP script which provides the content upon request).<br><br>
+Simply add the messages to a file specified by the dataURL parameter. In addition to text it is also possible to add Tags which vary properties like:-<br>
+<ul>
+<li>Colors</li>
+<li>Fonts</li>
+<li>Links</li>
+<li>Pause Time</li>
+<li>Alignment</li>
+</ul>
+For more information on these see <a href="datafile.htm">Data File Special Tags here</a><br><br>
+Once complete, place the data file in the same directory as the web page<br><br>
+The <b>./examples/</b> directory of this package contains several data files.
+</td></tr>
+</table>
+<br>
+<table class="pmtable">
+<tr class="pmheading"><td>Copy Files</td></tr>
+<tr class="pmrow"><td>
+From the <b>./AppletFiles/</b> directory of this package copy the following files and place them in the same directory as your web page:-<br>
+<ul>
+<li>AdvFadeText.jar</li>
+<li>jpapplet.js</li>
+</ul>
+</td></tr>
+</table>
+</div>
+
+<div class="contentp">
+    <div class="headinglarge">Demos and Examples</div>
+    This package contains several demos and examples to provide a quick overview of some of the capabilities of the software.
+    <p><a href="./examples/index.htm">View Examples here</a></p>
+</div>
+
+<div class="contentp">
+    <div class="headinglarge">Customisation Service</div>
+    If you require a feature or function beyond what is currently offered by this package then we may be able to produce a special version for you tailored to your requirements.
+    <p><a href="http://www.jpowered.com/custom/index.htm">View Customisation Service Details here</a></p>
+</div>
+
+<div class="contentp">
+    <div class="headinglarge">Usage and Licensing</div>
+    The trial version is fully functional however a registration message is displayed.<br>
+    Licensed - Upon purchasing a license you will be provided with the licensed version. The licensed version does not contain any reference or links to JPowered.com.
+    <p><a href="http://www.jpowered.com/web-page-effects/order.htm">View pricing and licensing information here &raquo;</a></p>
+</div>
+
+<div class="contentp">
+<div class="headinglarge">Help and Support</div>
+<p>If at any stage you require assistance, help or advice then please feel free contact us via our support pages at:-</p>
+<p><a href="http://www.jpowered.com/support.htm">JPowered Support &raquo;</a></p>
+</div>
+
+<div class="innm"><ul><li> <a href="http://www.jpowered.com/web-page-effects/index.htm">Home</a> </li><li> <a href="http://www.jpowered.com/web-page-effects/order.htm">Pricing / License Options</a> </li><li> <a href="./examples/index.htm">Demos</a> </li><li><a href="http://www.jpowered.com/custom/index.htm">Custom Solutions</a></li></ul></div>
+</div>
+
+<div class="mc">[<a href="http://www.jpowered.com/index.htm"> Home </a>] [<a href="http://www.jpowered.com/products.htm"> Products </a>] [<a href="http://www.jpowered.com/downloads.htm"> Downloads </a>] [<a href="http://www.jpowered.com/web-page-effects/order.htm"> Purchase </a>] [<a href="http://www.jpowered.com/support.htm">Support </a>]</div>
+<div class="cprt"><img src="../images/copyright.gif" width="450" height="25" alt="Advanced Fading Text"></div>
+</div>
+</center>
+</body>
+</html>

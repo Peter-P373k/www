@@ -1,0 +1,17 @@
+<INDENT 0><IMG ./images/jpowered.gif></INDENT>
+<CENTER>
+<FONT Arial,B,18><COLOR #BB4400>
+Advanced Sliding Text
+
+JavaScript Interaction
+</COLOR></FONT>
+</CENTER>
+<PAGEBREAK>
+Clicking on the links below will execute a little JavaScript function which will show or hide some content below.
+
+<URL combo('c1'),javascript>Show / Hide table 1</URL>
+
+<URL combo('c2'),javascript>Show / Hide table 2</URL>
+
+<URL combo('c3'),javascript>Show / Hide table 3</URL>
+<PAUSE 10><PAGEBREAK>

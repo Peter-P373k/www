@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<TITLE>Advanced Typewriter Text Effect - Full Parameter Reference</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../images/jpprod.css">
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../images/jpprodplus.css">
+</head>
+<body>
+<center>
+<div class="out">
+<table  class="hdc">
+<tr><td rowspan="2"><img src="../images/jpowered.gif" width="270" height="60" align="left" alt="Advanced Typewriter Text Effect"></td><td align='right'><H1>Advanced Typewriter Text Effect Parameter Reference</H1></td></tr>
+<tr><td class="mc" valign="top"><img src="../images/curve.gif" width="22" height="18" vspace="0" hspace="0" align="left" alt="graph demo">[<a href="http://www.jpowered.com/index.htm"> Home </a>] [<a href="http://www.jpowered.com/products.htm"> Products </a>] [<a href="http://www.jpowered.com/downloads.htm"> Downloads </a>] [<a href="http://www.jpowered.com/web-page-effects/order.htm"> Purchase </a>]<br>[<a href="http://www.jpowered.com/support.htm"> Support </a>] [<a href="http://www.jpowered.com/aboutus.htm"> About Us </a>]</td></tr>
+</table>
+<div>
+<div class="innm"><ul><li> <a href="http://www.jpowered.com/web-page-effects/index.htm">Home</a> </li><li> <a href="http://www.jpowered.com/web-page-effects/order.htm">Pricing / License Options</a> </li><li> <a href="./examples/index.htm">Demos</a> </li><li><a href="http://www.jpowered.com/custom/index.htm">Custom Solutions</a></li></ul></div>
+<h2>Advanced Typewriter Text Effect Full Parameter Reference</h2>
+
+<div class="contentp">
+The values of the parameters dictate the content and behaviour of the Advanced Typewriter Text Effect<br><br>
+Please Note : Parameter names are case sensitive. ( i.e. 'width' is not the same as 'Width' ).
+</div>
+
+<div class="contp">
+<table class="pmtable">
+<tr class="pmheading"><td>Name</td><td>Description</td><td>Example</td></tr>
+
+<tr class="pmrow">
+<td><b>BGcolor</b></td>
+<td>The background color of each page.<br><br><b>Range of Values :</b> <a href="colors.htm">Color Definition</a></td>
+<td>&lt;PARAM name="BGcolor" value="#FFFFFF"&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>BorderWidth</b></td>
+<td>This is the width in pixels of the border. This must a positive integer value. If you do not require a border then set this value to 0.<br><br><b>Range of Values :</b> Positive Integer</td>
+<td>&lt;PARAM name="BorderWidth" value="1"&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>BorderColor</b></td>
+<td>The color of the border.<br><br><b>Range of Values :</b> <a href="colors.htm">Color Definition</a></td>
+<td>&lt;PARAM name="BorderColor" value="#0000FF"&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>TextColor</b></td>
+<td>The default text color<br><br><b>Range of Values :</b> <a href="colors.htm">Color Definition</a></td>
+<td>&lt;PARAM name="TextColor" value="#000000"&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>Font</b></td>
+<td>The default font<br><br><b>Range of Values :</b> <a href="fonts.htm">Font Definition</a></td>
+<td>&lt;PARAM name="Font" value="Arial,N,12"&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>align</b></td>
+<td>Each message can be set to align to the Left, Center or Right. A different value may be specified for each message in the datafile, however this defualt alignment will apply apply to any message where an alignment is not specified.<br><br><b>Range of Values :</b> Left, Center or Right</td>
+<td>&lt;PARAM name="align" value="Left"&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>Speed</b></td>
+<td>This specifies the speed at which the next slide will be moved into position<br><br><b>Range of Values :</b> Positive Integer between 1 and 100</td>
+<td>&lt;PARAM name="Speed" value="70"&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>Pause</b></td>
+<td>Pause Time in seconds between messages.<br><br><b>Range of Values :</b> Positive Integer</td>
+<td>&lt;PARAM name="Pause" value="3"&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>dataURL</b></td>
+<td>This specifies the location and name of the file which contains content to be displayed. The value should be a valid URL or if the file is in the same directory as your web page then simply the filename.<br><br><b>Range of Values :</b> URL of a text file or server side process</td>
+<td>&lt;PARAM name="dataURL" value="data.txt"&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>typeSound</b></td>
+<td>This is the sound played each time a character is typed<br><br><b>Range of Values :</b> URL of a Sound file</td>
+<td>&lt;PARAM name="typeSound" value="type.au"&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>eolSound</b></td>
+<td>End Of Line sound.<br><br><b>Range of Values :</b> URL of a Sound file</td>
+<td>&lt;PARAM name="eolSound" value="ding.au"&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>scrollSound</b></td>
+<td>Sound to be played when the text is moving up the page.<br><br><b>Range of Values :</b> URL of a Sound file</td>
+<td>&lt;PARAM name="scrollSound" value="type.au"&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>charset</b></td>
+<td>Multi-Language International Character Sets<br>If you wish to use character sets other than Latin Alphabet No.1 (usually the default on most browsers) then you can do so with the parameter "charset". For example for UniCode "UTF-8" you would enter,
+<br><br><b>Range of Values :</b> Character Set Code</td>
+<td>&lt;PARAM name="charset" value="UTF8"&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>startupmessage</b></td>
+<td>The text to be displayed whilst the applet is loading your data<br><br><b>Range of Values :</b> Text</td>
+<td>&lt;PARAM name="startupmessage" value="Loading Content....."&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>startBGcolor</b></td>
+<td>Specifies the background color upon startup.<br><br><b>Range of Values :</b> <a href="colors.htm">Color Definition</a></td>
+<td>&lt;PARAM name="startBGcolor" value="#FFFFFF"&gt; </td>
+</tr>
+
+<tr class="pmrow">
+<td><b>startTXTcolor</b></td>
+<td>Specifies the text color upon startup.<br><br><b>Range of Values :</b> <a href="colors.htm">Color Definition</a></td>
+<td>&lt;PARAM name="startTXTcolor" value="#000000"&gt; </td>
+</tr>
+
+
+
+
+</table>
+</div>
+
+
+<div class="contentp"><a href="GettingStarted.htm">&laquo; back to Getting Started</a></div>
+<div class="contp">
+<b>Custom Solutions</b><br>
+If would like us to perform the set-up process, create custom built data scripts or help with any other part of your web application then we are pleased to offer you the following services:-<br>
+<a href="http://www.jpowered.com/web-software-development/product-configuration.htm">Set-Up, Installation and Configuration Service</a><br>
+<a href="http://www.jpowered.com/web-software-development/index.htm">Web Site Components Development Service</a><br>
+<a href="http://www.jpowered.com/web-application-development/index.htm">Web Application Development Service</a><br>
+<a href="http://www.jpowered.com/custom/index.htm">Custom Software Development</a><br>
+</div>
+<div class="innm"><ul><li> <a href="http://www.jpowered.com/web-page-effects/index.htm">Home</a> </li><li> <a href="http://www.jpowered.com/web-page-effects/order.htm">Pricing / License Options</a> </li><li> <a href="./examples/index.htm">Demos</a> </li><li><a href="http://www.jpowered.com/custom/index.htm">Custom Solutions</a></li></ul></div>
+</div>
+<div class="mc">[<a href="http://www.jpowered.com/index.htm"> Home </a>] [<a href="http://www.jpowered.com/products.htm"> Products </a>] [<a href="http://www.jpowered.com/downloads.htm"> Downloads </a>] [<a href="http://www.jpowered.com/web-page-effects/order.htm"> Purchase </a>] [<a href="http://www.jpowered.com/support.htm"> Support </a>] [<a href="http://www.jpowered.com/aboutus.htm"> About Us </a>]</div>
+<div class="cprt"><img src="../images/copyright.gif" width="450" height="25" alt="Advanced Typewriter Text Effect"></div>
+</div>
+</center>
+
+</body>
+</html>

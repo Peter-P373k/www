@@ -1,0 +1,42 @@
+﻿<URL http://www.jpowered.com>
+<IMG ./images/jpowered.gif>
+</URL>
+
+<INDENT 100><FONT Arial,B,18>Welcome</FONT></INDENT>
+
+Παρέχουμε πλήρως να λειτουργήσουμε
+δοκιμαστικές εκδόσεις κάθε προϊόντος
+έτσι μπορείτε να είστε βέβαιοι για το σας
+εφαρμογή πρίν δεσμεύει
+σε μια αγορά. Για να δοκιμάσει ένα συστατικό,
+απλά χτυπήστε σε έναν τίτλο προϊόντων
+και χτυπήστε στη Download σύνδεση. 
+<PAGEBREAK>
+
+
+Εάν ψάχνετε,
+
+<INDENT 50>
+<URL http://www.jpowered.com/menu/index.htm>Navigation ( Menu ) components,</URL>
+
+<URL http://www.jpowered.com/graph_chart_collection/index.htm>Graph and Chart functionality</URL> 
+
+<URL http://www.jpowered.com/presentation-tools/index.htm>Web Page Controls</URL>
+
+<URL http://www.trafficfile.com>Web Site and Visitor Tracking</URL>
+
+</INDENT>
+τους έχουμε όλοι.
+
+
+<PAGEBREAK>
+
+<COLOR #FF0000>New</COLOR> - <URL http://www.jpowered.com/graph_chart_collection/index.htm>Advanced Graphs and Charts</URL>
+Easily Create Powerful Graphs and Charts. With 
+the Graph Server quickly and easily add powerful
+Dynamic Graphing and Charting functionality to 
+your Web pages and Applications.
+<INDENT 50>
+<IMG ./images/bar.gif>
+<URL http://www.jpowered.com/graph_chart_collection/index.htm>Full Details - click here </URL>
+</INDENT>

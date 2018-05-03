@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<TITLE>Advanced Slide Show - Getting Started</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../images/jpprod.css">
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../images/jpprodplus.css">
+</head>
+<body>
+<center>
+<div class="out">
+<table  class="hdc" width="100%" border="0" cellspacing="0" cellpadding="0"><tr>
+<td rowspan="2"><img src="../images/jpowered.gif" width="270" height="60" align="left" alt="Advanced Slide Show"></td>
+<td align='right'><H1>Advanced Slide Show - Getting Started</H1></td>
+</tr>
+<tr>
+<td class="mc" valign="top"><img src="../images/curve.gif" width="22" height="18" vspace="0" hspace="0" align="left" alt="Advanced Slide Show">[<a href="http://www.jpowered.com/index.htm"> Home </a>] [<a href="http://www.jpowered.com/products.htm"> Products </a>] [<a href="http://www.jpowered.com/downloads.htm"> Downloads </a>] [<a href="http://www.jpowered.com/web-page-effects/order.htm"> Purchase </a>] [<a href="http://www.jpowered.com/support.htm"> Support </a>]</td>
+</tr></table>
+
+<div>
+<div class="innm"><ul><li> <a href="http://www.jpowered.com/web-page-effects/index.htm">Home</a> </li><li> <a href="http://www.jpowered.com/web-page-effects/order.htm">Pricing / License Options</a> </li><li> <a href="./examples/index.htm">Demos</a> </li><li><a href="http://www.jpowered.com/custom/index.htm">Custom Solutions</a></li></ul></div>
+<div class="pgt"><h1>Getting Started</h1></div>
+
+
+<div class="contentp">
+    <div class="headinglarge">Overview</div>
+    Use the Advanced Slide Show for Product Display, Advertising Tool, Photo Album or any form of Presentation. Moving pictures attract a visitor's eye - enabling you to convey key messages. Range of effects & multiple link areas.
+</div>
+
+<div class="contentp">
+    <div class="headinglarge">Implementation and Set Up</div>
+    Adding Advanced Slide Show to a web page is achieved by the following steps:-<br><br>
+
+<table class="pmtable">
+<tr class="pmheading"><td>Add the following code to your web page:-</td></tr>
+<tr class="pmrow"><td>
+<textarea class="applettag" rows="15" cols="60">
+<script src="jpapplet.js" language="javascript" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+jpwriteapplet('<applet code="AdvSlideShow.class" archive="AdvSlideShow.jar" WIDTH="194" HEIGHT="130" mayscript>');
+</script>
+
+<!-- Start Up Properties -->
+<param name="startupmessage"   value="Loading date - Please Wait.">
+<param name="startBGcolor"     value="#FFFFFF">
+<param name="startTXTcolor"    value="#000000">
+
+<!-- Applet Properties -->
+<param name="BGcolor"      value="#000000">
+<param name="BorderWidth"  value="1">
+<param name="BorderColor"  value="#FF0000">
+<param name="Speed"        value="99">
+<param name="LinkColor"    value="#9999FF">
+<param name="DefaultPause" value="3">
+
+<param name="dataURL"      value="data.txt">
+
+<a href="http://www.jpowered.com">Advanced Slide Show by JPowered.com</a>
+</applet>
+</textarea>
+(The "WIDTH" and "HEIGHT" parameters should be adjusted for the size required)
+</td></tr>
+</table>
+<br>
+<table class="pmtable">
+<tr class="pmheading"><td>Set Parameters</td></tr>
+<tr class="pmrow"><td>
+The parameters (PARAM tags) dictate the content, colors, fonts and operation of the Advanced Slide Show. The VALUE of the parameters (added in the previous step) should be adjusted to provide the desired result. <br><br>
+For the meaning and effect of each parameter see the <a href="parameters.htm">Parameter Reference here</a><br><br>
+</td></tr>
+</table>
+<br>
+<table class="pmtable">
+<tr class="pmheading"><td>Add the Slide and Link Data</td></tr>
+<tr class="pmrow"><td>
+The Advanced Slide Show will load the content from a data file specified by the "dataURL" parameter. Above this parameter is set to a value of "data.txt". The dataURL does not have to be a static text file but can be (if required) a server side script which generates the content dynamically<br>(eg. &lt;param name="dataURL" value="data.php"&gt; where data.php would be a PHP script which provides the content upon request).<br><br>
+The data file should contain a list of banners and the corresponding links in the following format:-<br>
+<ul>
+<li>&lt;IMG [DIRECTION],[IMAGE URL]&gt;</li>
+<li>&lt;LINK [URL],[TARGET],[LINK AREA]&gt;</li>
+</ul><br>
+Where [DIRECTION] can be one of:-<br>
+<ul>
+<li>top</li>
+<li>top left</li>
+<li>top right</li>
+<li>bottom right</li>
+<li>bottom</li>
+<li>bottom left</li>
+<li>lef</li>
+<li>righ</li>
+<li>center</li>
+<li>outside</li>
+</ul>
+Where [LINK AREA] specifies the co-ordinates of a clickable rectangle<br>
+left, top, right , bottom<br><br>
+For example:-<br><br>
+&lt;IMG top,images/img1.jpg&gt;<br>
+&lt;LINK http://www.jpowered.com/,_self,0,0,194,130&gt;<br>
+&lt;IMG left,images/img2.jpg&gt;<br>
+&lt;LINK http://www.jpowered.com/,_self,0,0,194,130&gt;<br>
+&lt;IMG center,images/img3.jpg&gt;<br>
+&lt;LINK http://www.jpowered.com/,_self,0,0,194,130&gt;<br>
+<br>
+The <b>./examples/</b> directory of this package contains several data files.
+</td></tr>
+</table>
+<br>
+<table class="pmtable">
+<tr class="pmheading"><td>Copy Files</td></tr>
+<tr class="pmrow"><td>
+From the <b>./AppletFiles/</b> directory of this package copy the following files and place them in the same directory as your web page:-<br>
+<ul>
+<li>AdvSlideShow.jar</li>
+<li>jpapplet.js</li>
+</ul>
+</td></tr>
+</table>
+</div>
+
+<div class="contentp">
+    <div class="headinglarge">Demo</div>
+    This package contains a working demo to provide a quick overview of some of the capabilities of the software.
+    <p><a href="./examples/index.htm">View Demo here</a></p>
+</div>
+
+<div class="contentp">
+    <div class="headinglarge">Customisation Service</div>
+    If you require a feature or function beyond what is currently offered by this package then we may be able to produce a special version for you tailored to your requirements.
+    <p><a href="http://www.jpowered.com/custom/index.htm">View Customisation Service Details here</a></p>
+</div>
+
+<div class="contentp">
+    <div class="headinglarge">Usage and Licensing</div>
+    The trial version is fully functional however a registration message is displayed.<br>
+    Licensed - Upon purchasing a license you will be provided with the licensed version. The licensed version does not contain any reference or links to JPowered.com.
+    <p><a href="http://www.jpowered.com/web-page-effects/order.htm">View pricing and licensing information here &raquo;</a></p>
+</div>
+
+<div class="contentp">
+<div class="headinglarge">Help and Support</div>
+<p>If at any stage you require assistance, help or advice then please feel free contact us via our support pages at:-</p>
+<p><a href="http://www.jpowered.com/support.htm">JPowered Support &raquo;</a></p>
+</div>
+
+<div class="innm"><ul><li> <a href="http://www.jpowered.com/web-page-effects/index.htm">Home</a> </li><li> <a href="http://www.jpowered.com/web-page-effects/order.htm">Pricing / License Options</a> </li><li> <a href="./examples/index.htm">Demos</a> </li><li><a href="http://www.jpowered.com/custom/index.htm">Custom Solutions</a></li></ul></div>
+</div>
+
+<div class="mc">[<a href="http://www.jpowered.com/index.htm"> Home </a>] [<a href="http://www.jpowered.com/products.htm"> Products </a>] [<a href="http://www.jpowered.com/downloads.htm"> Downloads </a>] [<a href="http://www.jpowered.com/web-page-effects/order.htm"> Purchase </a>] [<a href="http://www.jpowered.com/support.htm">Support </a>]</div>
+<div class="cprt"><img src="../images/copyright.gif" width="450" height="25" alt="Advanced Slide Show"></div>
+</div>
+</center>
+</body>
+</html>

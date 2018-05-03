@@ -1,0 +1,99 @@
+<MESSAGE>
+<URL http://www.jpowered.com/,_self>
+<FONT Arial,B,18>
+<COLOR light blue>
+
+Welcome to Jpowered
+</MESSAGE>
+
+<MESSAGE>
+<URL http://www.jpowered.com/,_self>
+<FONT Arial,N,12>
+
+JPowered is a leading provider of 
+Java & Javascript Software.
+</MESSAGE>
+
+<MESSAGE>
+<URL http://www.jpowered.com/,_self>
+<FONT Arial,N,12>
+<COLOR green>
+<PAUSE 5>
+<ALIGN left>
+Whether you are looking for,
+  Menu & Navigation
+  Graphing & Charting
+  Presentation Tools
+  Special Effects
+We have them all
+</MESSAGE>
+
+<MESSAGE>
+<URL http://www.jpowered.com/menu/,_self>
+<FONT Arial,N,12>
+<COLOR orange>
+<PAUSE 5>
+<ALIGN right>
+Menu & Navigation
+
+for a variety of solutions
+click here
+</MESSAGE>
+
+<MESSAGE>
+<URL http://www.jpowered.com/graph_chart_collection/index.htm,_self>
+<FONT Arial,N,12>
+<COLOR light blue>
+<PAUSE 5>
+<ALIGN center>
+Graphing & Charting
+
+Advanced Easy to use solutions
+click here
+</MESSAGE>
+
+<MESSAGE>
+<URL http://www.jpowered.com/index.htm,_self>
+<FONT Arial,N,12>
+<COLOR purple>
+<PAUSE 5>
+<ALIGN center>
+Presentation Tools
+
+Bring your data Alive.
+click here
+</MESSAGE>
+
+<MESSAGE>
+<URL http://www.jpowered.com/index.htm,_self>
+<FONT Arial,N,12>
+<PAUSE 5>
+<ALIGN center>
+Special Effects
+
+Get your message across.
+click here
+</MESSAGE>
+
+<MESSAGE>
+<URL http://www.trafficfile.com/,_self>
+<FONT Arial,N,14>
+<COLOR light red>
+<PAUSE 5>
+<ALIGN center>
+Advanced Web Counter
+
+Far more than just a
+hit counter - click here
+</MESSAGE>
+
+<MESSAGE>
+<URL http://www.graph-chart.com/,_self>
+<FONT Arial,N,14>
+<COLOR white>
+<PAUSE 5>
+<ALIGN left>
+Advanced Graphing & Charting
+
+made easy - click here
+</MESSAGE>

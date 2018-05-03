@@ -1,0 +1,53 @@
+<FONT Arial,B,12>Changing the Color</FONT>
+<COLOR red>Red</COLOR>
+<COLOR Green>Green</COLOR>
+<COLOR Blue>Blue</COLOR>
+<COLOR Orange>Orange</COLOR>
+<COLOR Purple>Purple</COLOR>
+<COLOR pink>Pink</COLOR>
+<PAGEBREAK>
+<FONT Arial,B,12>Changing Fonts</FONT>
+<FONT Arial,N,8>Arial 8 point</FONT>
+<FONT Courier,N,10>Courier 10 point</FONT>
+<FONT Arial,B,12>Arial Bold 12 point</FONT>
+<FONT Arial,I,14>Arial Italic 14 point</FONT>
+<FONT TimesRoman,N,16>TimesRoman 16 point</FONT>
+<PAGEBREAK>
+<FONT Arial,B,12>Adding Links to Text</FONT>
+<URL http://www.jpowered.com/,frame>Jpowered Home</URL>
+<URL http://www.trafficfile.com/,frame>TrafficFile Home</URL>
+<URL http://www.graph-chart.com/,frame>Graph & Chart Home</URL>
+<PAGEBREAK>
+<FONT Arial,B,12>Changing the Indentation,</FONT>
+<INDENT 10>Line 1</INDENT>
+<INDENT 20>Line 2</INDENT>
+<INDENT 30>Line 3</INDENT>
+<INDENT 40>Line 4</INDENT>
+<INDENT 50>Line 5</INDENT>
+<PAGEBREAK>
+<FONT Arial,B,12>Forcing a Line Break mid sentence.</FONT>
+Forcing <LINEBREAK>a <LINEBREAK>Line <LINEBREAK>Break <LINEBREAK>mid <LINEBREAK>sentence.
+<PAGEBREAK>
+The defualt pausetime is set to 
+2 seconds. However for this page 
+we change that to 5 seconds.
+<PAUSE 5>
+<PAGEBREAK>
+<FONT Arial,B,12>Adding Images</FONT>
+
+Our Logo
+<IMG ./images/sirius.gif>
+
+<IMG ./images/bullet.gif>Text with bullet image
+<PAGEBREAK>
+<FONT Arial,B,12>Mixing it up.</FONT>
+<FONT Arial,I,14>
+<INDENT 30>
+<IMG ./images/bullet.gif><URL http://www.jpowered.com/,frame>Jpowered Home</URL>
+
+<IMG ./images/bullet.gif><URL http://www.trafficfile.com/,frame>TrafficFile Home</URL>
+
+<IMG ./images/bullet.gif><URL http://www.graph-chart.com/,frame>Graph & Chart Home</URL>
+</INDENT>
+</FONT>
+<PAGEBREAK>

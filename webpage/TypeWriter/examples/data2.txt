@@ -1,0 +1,30 @@
+<MESSAGE>
+<URL http://www.jpowered.com/,_self>
+<FONT Arial,B,18>
+<COLOR blue>
+
+Welcome to Jpowered
+</MESSAGE>
+
+<MESSAGE>
+<URL http://www.jpowered.com/,_self>
+<FONT Arial,N,12>
+<COLOR #000000>
+
+JPowered is a leading provider of 
+Java & Javascript Software.
+</MESSAGE>
+
+<MESSAGE>
+<URL http://www.jpowered.com/,_self>
+<FONT Arial,N,12>
+<COLOR blue>
+<PAUSE 5>
+<ALIGN left>
+Whether you are looking for,
+  Menu & Navigation
+  Graphing & Charting
+  Presentation Tools
+  Special Effects
+We have them all
+</MESSAGE>

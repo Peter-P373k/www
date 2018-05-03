@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<TITLE>Fading Images 2 - Getting Started</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../images/jpprod.css">
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../images/jpprodplus.css">
+</head>
+<body>
+<center>
+<div class="out">
+<table  class="hdc" width="100%" border="0" cellspacing="0" cellpadding="0"><tr>
+<td rowspan="2"><img src="../images/jpowered.gif" width="270" height="60" align="left" alt="Fading Images 2"></td>
+<td align='right'><H1>Fading Images 2 - Getting Started</H1></td>
+</tr>
+<tr>
+<td class="mc" valign="top"><img src="../images/curve.gif" width="22" height="18" vspace="0" hspace="0" align="left" alt="Fading Images 2">[<a href="http://www.jpowered.com/index.htm"> Home </a>] [<a href="http://www.jpowered.com/products.htm"> Products </a>] [<a href="http://www.jpowered.com/downloads.htm"> Downloads </a>] [<a href="http://www.jpowered.com/web-page-effects/order.htm"> Purchase </a>] [<a href="http://www.jpowered.com/support.htm"> Support </a>]</td>
+</tr></table>
+
+<div>
+<div class="innm"><ul><li> <a href="http://www.jpowered.com/web-page-effects/index.htm">Home</a> </li><li> <a href="http://www.jpowered.com/web-page-effects/order.htm">Pricing / License Options</a> </li><li> <a href="./examples/index.htm">Demos</a> </li><li><a href="http://www.jpowered.com/custom/index.htm">Custom Solutions</a></li></ul></div>
+<div class="pgt"><h1>Getting Started</h1></div>
+
+
+<div class="contentp">
+    <div class="headinglarge">Overview</div>
+    This product enables multiple images to be displayed within a single area. The transition between images is a very smooth fading effect, the speed of which can be varied by changing the parameter values.<br><br>
+    Any number of images may be added and each image can be set to link to a unique URL.
+</div>
+
+<div class="contentp">
+    <div class="headinglarge">Implementation and Set Up</div>
+    Adding Fading Images 2 to a web page is achieved by the following steps:-<br><br>
+
+<table class="pmtable">
+<tr class="pmheading"><td>Add the following code to your web page:-</td></tr>
+<tr class="pmrow"><td>
+<textarea class="applettag" rows="15" cols="60">
+<script src="jpapplet.js" language="javascript" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+jpwriteapplet('<applet code="SIRfade2PRO.class" archive="SIRfade2PRO.jar" WIDTH="192" HEIGHT="128" mayscript>');
+</script>
+
+  <!--Start Up-->
+  <param name="startupcolor" value="0,0,0">
+  <param name="startupimage" value="Images/start.gif">
+  <param name="textcolor" value="255,255,255">
+  <param name="loadingmessage" value="Please Wait Loading Image...">
+  <param name="loadall" value="no">
+
+  <!--Images-->
+  <param name="image1" value="../images/img1.jpg">
+  <param name="image2" value="../images/img2.jpg">
+  <param name="image3" value="../images/img3.jpg">
+  <param name="image4" value="../images/img4.jpg">
+  <param name="image5" value="../images/img5.jpg">
+  <param name="image6" value="../images/img6.jpg">
+
+  <!--Links-->
+  <param name="link1" value="http://www.jpowered.com">
+  <param name="link2" value="http://www.jpowered.com">
+  <param name="link3" value="http://www.jpowered.com">
+  <param name="link4" value="http://www.jpowered.com">
+  <param name="link5" value="http://www.jpowered.com">
+  <param name="link6" value="http://www.jpowered.com">
+
+  <!--Image Display Times-->
+  <param name="time1" value="3000">
+  <param name="time2" value="3000">
+  <param name="time3" value="3000">
+  <param name="time4" value="3000">
+  <param name="time5" value="3000">
+  <param name="time6" value="3000">
+
+  <!--Advanced Options-->
+  <param name="fps" value="24">
+  <param name="timefading" value="500">
+
+<a href="http://www.jpowered.com">Fading Images 2 by JPowered.com</a>
+</applet>
+</textarea>
+(The "WIDTH" and "HEIGHT" parameters should be adjusted for the size required)
+</td></tr>
+</table>
+<br>
+<table class="pmtable">
+<tr class="pmheading"><td>Set Parameters</td></tr>
+<tr class="pmrow"><td>
+The parameters (PARAM tags) dictate the content, colors, fonts and operation of the Fading Images 2. The VALUE of the parameters (added in the previous step) should be adjusted to provide the desired result. <br><br>
+For the meaning and effect of each parameter see the <a href="parameters.htm">Parameter Reference here</a><br><br>
+</td></tr>
+</table>
+<br>
+<table class="pmtable">
+<tr class="pmheading"><td>Copy Files</td></tr>
+<tr class="pmrow"><td>
+From the <b>./AppletFiles/</b> directory of this package copy the following files and place them in the same directory as your web page:-<br>
+<ul>
+<li>SIRfade2PRO.jar</li>
+<li>jpapplet.js</li>
+</ul>
+</td></tr>
+</table>
+</div>
+
+<div class="contentp">
+    <div class="headinglarge">Demos and Examples</div>
+    This package contains several demos and examples to provide a quick overview of some of the capabilities of the software.
+    <p><a href="./examples/index.htm">View Examples here</a></p>
+</div>
+
+<div class="contentp">
+    <div class="headinglarge">Customisation Service</div>
+    If you require a feature or function beyond what is currently offered by this package then we may be able to produce a special version for you tailored to your requirements.
+    <p><a href="http://www.jpowered.com/custom/index.htm">View Customisation Service Details here</a></p>
+</div>
+
+<div class="contentp">
+    <div class="headinglarge">Usage and Licensing</div>
+    The trial version is fully functional however a registration message is displayed.<br>
+    Licensed - Upon purchasing a license you will be provided with the licensed version. The licensed version does not contain any reference or links to JPowered.com.
+    <p><a href="http://www.jpowered.com/web-page-effects/order.htm">View pricing and licensing information here &raquo;</a></p>
+</div>
+
+<div class="contentp">
+<div class="headinglarge">Help and Support</div>
+<p>If at any stage you require assistance, help or advice then please feel free contact us via our support pages at:-</p>
+<p><a href="http://www.jpowered.com/support.htm">JPowered Support &raquo;</a></p>
+</div>
+
+<div class="innm"><ul><li> <a href="http://www.jpowered.com/web-page-effects/index.htm">Home</a> </li><li> <a href="http://www.jpowered.com/web-page-effects/order.htm">Pricing / License Options</a> </li><li> <a href="./examples/index.htm">Demos</a> </li><li><a href="http://www.jpowered.com/custom/index.htm">Custom Solutions</a></li></ul></div>
+</div>
+
+<div class="mc">[<a href="http://www.jpowered.com/index.htm"> Home </a>] [<a href="http://www.jpowered.com/products.htm"> Products </a>] [<a href="http://www.jpowered.com/downloads.htm"> Downloads </a>] [<a href="http://www.jpowered.com/web-page-effects/order.htm"> Purchase </a>] [<a href="http://www.jpowered.com/support.htm">Support </a>]</div>
+<div class="cprt"><img src="../images/copyright.gif" width="450" height="25" alt="Fading Images 2"></div>
+</div>
+</center>
+</body>
+</html>

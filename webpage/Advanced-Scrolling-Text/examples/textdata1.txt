@@ -1,0 +1,42 @@
+<URL http://www.jpowered.com>
+<IMG ./images/jpowered.gif>
+</URL>
+
+<INDENT 100><FONT Arial,B,18>Welcome</FONT></INDENT>
+
+We provide Fully Functioning 
+trial versions of each product 
+so you can be sure of your 
+implementation before committing 
+to a purchase. To try a component,
+simply click on a product title 
+and click on the Download link. 
+<PAGEBREAK>
+
+
+Whether you are looking for,
+
+<INDENT 50>
+<URL http://www.jpowered.com/menu/index.htm>Navigation ( Menu ) components,</URL>
+
+<URL http://www.jpowered.com/graph_chart_collection/index.htm>Graph and Chart functionality</URL> 
+
+<URL http://www.jpowered.com/presentation-tools/index.htm>Web Page Controls</URL>
+
+<URL http://www.trafficfile.com>Web Site and Visitor Tracking</URL>
+</INDENT>
+we have them all.
+
+
+<PAGEBREAK>
+<COLOR #FF0000>New</COLOR> - <URL http://www.jpowered.com/graph_chart_collection/index.htm>Advanced Graphs and Charts</URL>
+Easily Create Powerful Graphs and Charts. With 
+the Graph Sofware quickly and easily add powerful
+Dynamic Graphing and Charting functionality to 
+your Web pages and Applications.
+<INDENT 50>
+<URL http://www.jpowered.com/graph_chart_collection/index.htm>
+<IMG ./images/bar.gif>
+</URL>
+<URL http://www.jpowered.com/graph_chart_collection/index.htm>Full Details - click here</URL>
+</INDENT>

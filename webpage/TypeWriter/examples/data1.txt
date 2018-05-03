@@ -1,0 +1,20 @@
+<MESSAGE>
+<URL http://www.jpowered.com/,_self>
+Welcome to Jpowered
+</MESSAGE>
+
+<MESSAGE>
+<URL http://www.jpowered.com/,_self>
+JPowered is a leading provider of 
+Java & Javascript Software.
+</MESSAGE>
+
+<MESSAGE>
+<URL http://www.jpowered.com/,_self>
+Whether you are looking for,
+Menu & Navigation
+Graphing & Charting
+Presentation Tools
+Special Effects
+We have them all
+</MESSAGE>

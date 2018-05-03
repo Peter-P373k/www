@@ -1,0 +1,12 @@
+<IMG top,images/img1.jpg>
+<LINK http://www.jpowered.com/,_self,0,0,194,130>
+<IMG left,images/img2.jpg>
+<LINK http://www.jpowered.com/,_self,0,0,194,130>
+<IMG center,images/img3.jpg>
+<LINK http://www.jpowered.com/,_self,0,0,194,130>
+<IMG outside,images/img4.jpg>
+<LINK http://www.jpowered.com/,_self,0,0,194,130>
+<IMG right,images/img5.jpg>
+<LINK http://www.jpowered.com/,_self,0,0,194,130>
+<IMG top left,images/img6.jpg>
+<LINK http://www.jpowered.com/,_self,0,0,194,130>
